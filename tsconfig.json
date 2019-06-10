@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "target": "es5",
+        "downlevelIteration": true,
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": true,
+        "pretty": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "importHelpers": true,
+        "noImplicitAny": false,
+        "lib": [
+            "es7",
+            "es2017",
+            "es2015"
+        ],
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*",
+        "src/lib/*"
+    ],
+    "exclude": [
+       "node_modules"
+    ],    
+    "compileOnSave": true
+}
